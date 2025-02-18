@@ -1,0 +1,110 @@
+body
+{
+    background-color: black;
+}
+.header
+{
+    text-align: center;
+}
+.header a
+{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+.header2 h1
+{ 
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.header2 p
+{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.header2 
+{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+
+}
+.nav
+{
+    text-align: center;
+    background-color: rgb(0, 3, 202);
+    margin:  -8px;
+    padding: 12px;
+}
+.nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    transition: transform 0.3s ease-out;
+}
+
+.nav a:hover {
+    transform: translateY(-3px);
+}
+.box .box1, .box .box2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.pbox1, .pbox2 {
+    text-align: center;
+    color: white;
+}
+.box .box3, .box .box4 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.pbox3, .pbox4 {
+    text-align: center;
+    color: white;
+}
+
+.pbox1 {
+    margin-right: 0; /* ลบ margin-right ที่มากเกินไป */
+}
+
+.pbox2 {
+    margin-right: 0; /* ลบ margin-right ที่มากเกินไป */
+}
+.pbox3 {
+    margin-right: 0; /* ลบ margin-right ที่มากเกินไป */
+}
+
+.pbox4 {
+    margin-right: 0; /* ลบ margin-right ที่มากเกินไป */
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer 
+{
+    background-color: rgb(0, 3, 202);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
